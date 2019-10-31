@@ -15,7 +15,7 @@ public class Pet {
 
     }
 
-    public Pet(String name, int id, Category category, String status,  List<Tag> tags, List<String>photoUrls) {
+    public Pet(String name, int id, Category category, String status, List<Tag> tags, List<String> photoUrls) {
         this.photoUrls = photoUrls;
         this.name = name;
         this.id = id;

@@ -7,7 +7,7 @@ import static io.swagger.petstore.config.RequestSpecificationUtil.setSpecificati
 public class BaseTest {
 
     @Before
-    public void setUp(){
+    public void setUp() {
         setSpecification();
     }
 

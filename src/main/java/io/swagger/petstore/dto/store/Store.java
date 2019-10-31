@@ -9,7 +9,7 @@ public class Store {
     private String status;
     private Boolean complete;
 
-    public Store(){
+    public Store() {
 
     }
 

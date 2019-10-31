@@ -6,7 +6,7 @@ public class Constants {
         public static final String API_KEY = "api_key";
     }
 
-    public class QueryParams{
+    public class QueryParams {
         public static final String PENDING = "pending";
         public static final String AVAILABLE = "available";
         public static final String SOLD = "sold";

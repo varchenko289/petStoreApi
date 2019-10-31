@@ -1,7 +1,9 @@
 package io.swagger.petstore.utils;
 
 import org.apache.commons.lang3.RandomStringUtils;
+
 import java.util.Random;
+
 import static org.apache.commons.lang3.RandomStringUtils.randomNumeric;
 
 public class EntityBuilderUtil {

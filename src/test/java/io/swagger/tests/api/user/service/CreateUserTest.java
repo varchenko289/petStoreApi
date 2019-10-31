@@ -6,6 +6,7 @@ import io.swagger.petstore.dto.user.User;
 import io.swagger.tests.api.BaseTest;
 import org.junit.BeforeClass;
 import org.junit.Test;
+
 import static io.swagger.petstore.utils.UserUtil.createNewUserRequest;
 import static io.swagger.petstore.utils.UserUtil.getUserByUserName;
 import static org.hamcrest.MatcherAssert.assertThat;

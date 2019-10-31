@@ -2,6 +2,7 @@ package io.swagger.petstore.config;
 
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
+
 import static io.restassured.http.ContentType.JSON;
 import static io.swagger.petstore.utils.Constants.HeadersValue.API_KEY;
 

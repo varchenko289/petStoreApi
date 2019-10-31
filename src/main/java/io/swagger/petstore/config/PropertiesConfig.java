@@ -1,11 +1,8 @@
 package io.swagger.petstore.config;
 
-        import io.swagger.petstore.dto.ConfigProperties;
+import io.swagger.petstore.dto.ConfigProperties;
 
-        import java.io.FileInputStream;
-
-        import static java.lang.String.format;
-        import static java.lang.System.getProperty;
+import java.io.FileInputStream;
 
 public class PropertiesConfig {
 
