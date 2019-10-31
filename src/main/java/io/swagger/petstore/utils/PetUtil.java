@@ -33,7 +33,7 @@ public class PetUtil {
 
     public static List<Tag> getListOfTags(int counter) {
 
-        PetUtil petUtil = new PetUtil();
+        var petUtil = new PetUtil();
         List<Tag> tags = new ArrayList<>();
 
         for (int i = 0; i < counter; i++) {
@@ -44,7 +44,7 @@ public class PetUtil {
     }
 
     public Category getCategory() {
-        Category category = new Category();
+        var category = new Category();
         category.setId(generateEntityId());
         category.setName(generateEntityName("My_Test_") + "_Category");
 
@@ -53,7 +53,7 @@ public class PetUtil {
 
     public Tag getSingleTag() {
 
-        Tag tag = new Tag();
+        var tag = new Tag();
         tag.setName(generateEntityName(generateEntityName("My_Test_Tag")));
         tag.setId(generateEntityId());
 

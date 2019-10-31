@@ -30,7 +30,7 @@ public class CreatePetTest extends BaseTest {
 
     @Test()
     public void createNewPet() {
-        Pet newPet = Fixture.from(Pet.class).gimme("newPet");
+        var newPet = Fixture.from(Pet.class).gimme("newPet");
         var petResponse = given()
                 .body(newPet)
                 .when().post(PET)
@@ -54,8 +54,8 @@ public class CreatePetTest extends BaseTest {
 
     @Test()
     public void createPetViaConstructor() {
-        PetUtil petUtil = new PetUtil();
-        Pet pet = new Pet(
+        var petUtil = new PetUtil();
+        var pet = new Pet(
                 null,
                 EntityBuilderUtil.generateEntityId(),
                 petUtil.getCategory(),

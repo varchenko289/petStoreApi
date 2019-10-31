@@ -9,7 +9,7 @@ import static org.apache.commons.lang3.RandomStringUtils.randomNumeric;
 public class EntityBuilderUtil {
 
     public static int generateEntityId() {
-        Random randomGenerator = new Random();
+        var randomGenerator = new Random();
         int randomInt = randomGenerator.nextInt(50) + 1;
 
         return randomInt;
@@ -17,7 +17,7 @@ public class EntityBuilderUtil {
 
     public static String generateEntityName(String predicate) {
 
-        String name = predicate + RandomStringUtils.randomAlphabetic(8);
+        var name = predicate + RandomStringUtils.randomAlphabetic(8);
         randomNumeric(7);
 
         return name;
